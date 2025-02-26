@@ -57,7 +57,7 @@ nav ul li a {
 
 /* Seção Hero */
 .hero {
-    background: url('salon-banner.jpg') center/cover no-repeat;
+    background: url('img/salon-banner.jpg') center/cover no-repeat;
     height: 80vh;
     display: flex;
     flex-direction: column;
