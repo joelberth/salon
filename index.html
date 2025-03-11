@@ -1,123 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salão de Beleza</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Neto Pereira Barber</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/ico" sizes="16x16" href="img/favicon.ico" />
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <div class="logo">Salão de Beleza</div>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre Nós</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#prices">Preços</a></li>
-                <li><a href="#gallery">Galeria</a></li>
-                <li><a href="#testimonials">Depoimentos</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-        <a href="#booking" class="btn">Agende Agora</a>
+      <div class="logo"><a href="index.html">Neto Pereira Barber</a></div>
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#prices">Preços</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#testimonials">Depoimentos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <a href="https://api.whatsapp.com/send?phone=5500999999999&text=Seja%20Bem-vindo%20ao%20nosso%20canal%20de%20Agendamento." class="btn"
+        >Agende Agora</a
+      >
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Sua Beleza em Boas Mãos!</h1>
-        <p>Agende seu horário e descubra os melhores serviços de beleza da região.</p>
-        <a href="#services" class="btn">Conheça Nossos Serviços</a>
-    </section>
+    <main>
+      <section class="banner"></section>
 
-    <!-- Sobre Nós -->
-    <section id="about" class="about">
-        <h2>Sobre Nós</h2>
-        <p>O [Nome do Salão] nasceu para oferecer o melhor atendimento e serviços de beleza.</p>
-        <img src="img/equipe.jpg" alt="Equipe do salão">
-    </section>
-
-    <!-- Serviços -->
-    <section id="services" class="services">
-        <h2>Nossos Serviços</h2>
-        <ul>
-            <li>Corte Feminino & Masculino</li>
-            <li>Coloração e Mechas</li>
-            <li>Manicure e Pedicure</li>
-            <li>Maquiagem Profissional</li>
-            <li>Hidratação e Escova</li>
-        </ul>
-    </section>
-
-    <!-- Tabela de Preços -->
-    <section id="prices" class="prices">
-        <h2>Nossos Preços</h2>
-        <table>
-            <tr><th>Serviço</th><th>Preço</th></tr>
-            <tr><td>Corte</td><td>R$ 50</td></tr>
-            <tr><td>Coloração</td><td>R$ 120</td></tr>
-            <tr><td>Manicure e Pedicure</td><td>R$ 80</td></tr>
-            <tr><td>Maquiagem</td><td>R$ 100</td></tr>
-        </table>
-    </section>
-
-    <!-- Agendamento -->
-    <section id="booking" class="booking">
-        <h2>Agende Seu Horário</h2>
-        <form>
-            <input type="text" placeholder="Nome" required>
-            <input type="tel" placeholder="Telefone" required>
-            <input type="email" placeholder="E-mail">
-            <select>
-                <option>Selecione um serviço</option>
-                <option>Corte</option>
-                <option>Coloração</option>
-                <option>Manicure e Pedicure</option>
-            </select>
-            <input type="date" required>
-            <button type="submit" class="btn">Enviar</button>
-        </form>
-    </section>
-
-    <!-- Galeria -->
-    <section id="gallery" class="gallery">
-        <h2>Nosso Espaço</h2>
-        <div class="gallery-grid">
-            <img src="img/espaco1.jpg" alt="Salão">
-            <img src="img/espaco2.jpg" alt="Corte de cabelo">
-            <img src="img/espaco3.jpg" alt="Manicure">
+      <section id="servicos" class="servicos">
+        <h2 id="#services">Serviços</h2>
+        <div class="container-servicos">
+          <div class="container-esquerda">
+            <img src="img/home-servicos.png" alt="Icone Serviços" />
+          </div>
         </div>
-    </section>
 
-    <!-- Depoimentos -->
-    <section id="testimonials" class="testimonials">
-        <h2>O Que Nossos Clientes Dizem</h2>
-        <div class="testimonial">
-            <p>"Melhor atendimento da cidade! Recomendo demais!"</p>
-            <span>- Maria Fernanda</span>
+        <div class="container-direita">
+          <div class="servico">
+            <div class="icon"><img src="img/trimmer.png" alt="" /></div>
+            <div class="text">
+              <h2>Hair Dryer Repairs</h2>
+              <p>
+                Alienum phaedrum torquato eu, vis detraxit periculaeuripidis Mei an Alienum phaedrum vis detraxit periculis cupidatat Alienum phaedrum
+                vis detraxit periculis cupidatat.
+              </p>
+            </div>
+          </div>
+          <div class="servico">
+            <div class="icon"><img src="img/hair-dryer.png" alt="" /></div>
+            <div class="text">
+              <h2>Haircut Styles</h2>
+              <p>
+                Alienum phaedrum torquato eu, vis detraxit periculaeuripidis Mei an Alienum phaedrum vis detraxit periculis cupidatat Alienum phaedrum
+                vis detraxit periculis cupidatat.
+              </p>
+            </div>
+          </div>
+          <div class="servico">
+            <div class="icon"><img src="img/hair-cut-tool.png" alt="" /></div>
+            <div class="text">
+              <h2>Beard Trim</h2>
+              <p>
+                Alienum phaedrum torquato eu, vis detraxit periculaeuripidis Mei an Alienum phaedrum vis detraxit periculis cupidatat Alienum phaedrum
+                vis detraxit periculis cupidatat.
+              </p>
+            </div>
+          </div>
+          </div>
         </div>
-    </section>
-
-    <!-- Mapa -->
-    <section id="map">
-        <h2>Onde Estamos</h2>
-        <iframe src="https://www.google.com/maps/embed?..."></iframe>
-        <p>Endereço: Rua Exemplo, 123 - Centro</p>
-    </section>
-
-    <!-- Contato -->
-    <section id="contact" class="contact">
-        <h2>Entre em Contato</h2>
-        <p>Telefone: (99) 99999-9999</p>
-        <p>E-mail: contato@salaodebeleza.com</p>
-        <a href="https://wa.me/5599999999999" class="btn">Agendar pelo WhatsApp</a>
-    </section>
-
+      </section>
+    </main>
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Salão de Beleza - Todos os direitos reservados.</p>
+      <p>&copy; 2025 Salão de Beleza - Todos os direitos reservados.</p>
     </footer>
-
-</body>
+  </body>
 </html>
